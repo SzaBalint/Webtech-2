@@ -1,0 +1,42 @@
+header{
+  position: relative;
+  background: black;
+  padding: 0;
+}
+
+a{
+  font-family: monospace;
+  color: white;
+}
+
+a:hover{
+  background: orange;
+  color: black;
+  cursor: pointer;
+}
+
+.container{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  float: left;
+
+}
+
+a {
+  display:block;
+  text-align:center;
+  width:150px;
+  text-decoration:none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 200%;
+}

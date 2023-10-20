@@ -1,0 +1,40 @@
+:host{
+  display: flex;
+  justify-content:  center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.timer-container{
+  background-image: linear-gradient(to right, #FFA500, black);
+  padding: 15px;
+  border-radius: 10px;
+  color:  #fff;
+  text-align:  center;
+  width: 250px;
+  box-shadow: 0 3px 6px rgba(129, 129, 129, 0.16),
+  0 3px 6px rgba(105, 105, 105, 0.23);
+
+  .timer{
+      font-family: monospace;
+      font-size: 35px;
+      margin-bottom: 15px;
+  }
+  .button-container{
+      .button{
+          font-family: monospace;
+          background: #fff;
+          border: none;
+          outline: 0;
+          cursor: pointer;
+          border-radius: 5%;
+          width: 60px;
+          height: 35px;
+          color: #6288df;
+      }
+  }
+}
+
+
+

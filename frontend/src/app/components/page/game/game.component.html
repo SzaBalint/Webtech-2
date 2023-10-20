@@ -1,0 +1,14 @@
+<div class="timer-container">
+  <div class="timer">
+        <span>{{min}} : </span>
+        <span>{{sec}} : </span>
+        <span>{{ms}}</span>
+  </div>
+  <div class="button-container">
+      <button class="button" (click)="start()">
+        START
+        <i *ngIf="!running"></i>
+        <i *ngIf="running"></i>
+      </button>
+  </div>
+</div>
